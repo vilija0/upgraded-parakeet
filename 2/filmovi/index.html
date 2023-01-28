@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="style.css">
+    <title>Filmovi</title>
+</head>
+<body>
+    
+    
+    <h1>Filmoteka</h1>
+
+	<div class="container">
+		<div class="items">
+			<h2>Odaberi film koji zelis da gledas</h2>
+
+			<div class="single-item">
+				<img src="img/15.4.2022_10_39_28_Doctor_Strange_SRB_novi.jpg">
+				<div class="si-content">
+					<h3>Doktor Strejndz</h3>
+					<p class="price">$10</p>
+				</div>
+				<div class="actions">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/Fantastic_beasts_3_noviji.jpg">
+				<div class="si-content">
+					<h3>Tajne Dambldora</h3>
+					<p class="price">$20</p>
+				</div>
+				<div class="actions">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+			<div class="single-item">
+				<img src="img/LETO_KADA_SAM_NAU-ILA_DA_LETIM_plakat223.png">
+				<div class="si-content">
+					<h3>Leto kada sam naucila da letim</h3>
+					<p class="price">$30</p>
+				</div>
+				<div class="actions">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+
+            <div class="single-item">
+				<img src="img/matrix.jpg">
+				<div class="si-content">
+					<h3>Matrix</h3>
+					<p class="price">$30</p>
+				</div>
+				<div class="actions">
+					<button onclick="addToCart(this)">Dodaj</button>
+				</div>
+			</div>
+        </div>
+    </div>
+    <div class="container cart">
+        <div class="cart">
+			<h2>Korpa</h2>
+			
+			<div class="cart-items"></div>
+
+			<div class="total"></div>
+		</div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

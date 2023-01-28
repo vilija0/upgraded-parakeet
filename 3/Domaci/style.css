@@ -1,0 +1,24 @@
+.krug{         
+    width: 250px;
+    height: 250px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.naslov{
+    font-size: 250%;
+    font-style: italic;
+    text-transform: uppercase;
+    color: rgb(180, 216, 18);
+    position: relative;
+    -webkit-animation: moving 1s infinite;
+    animation: moving 1s infinite;
+}
+
+@keyframes moving{
+    from {transform: translateY(0px);}
+    to {transform: translateY(20px);}
+}
